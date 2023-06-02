@@ -2,7 +2,6 @@ import Techonology from "./components/Technology";
 import Home from "./components/Home";
 import Destination from "./components/Destination";
 import Crew from "./components/Crew";
-import "./App.css";
 
 function App() {
   return (
@@ -11,7 +10,6 @@ function App() {
       <Destination />
       <Crew />
       <Techonology />
-      hello
     </div>
   );
 }
