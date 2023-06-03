@@ -1,15 +1,14 @@
 {
   "files": {
-    "main.css": "/space-tour/static/css/main.073c9b0a.css",
-    "main.js": "/space-tour/static/js/main.4bd22385.js",
-    "static/js/787.3e704ad1.chunk.js": "/space-tour/static/js/787.3e704ad1.chunk.js",
+    "main.css": "/space-tour/static/css/main.5bb674ed.css",
+    "main.js": "/space-tour/static/js/main.8ebd246d.js",
     "index.html": "/space-tour/index.html",
-    "main.073c9b0a.css.map": "/space-tour/static/css/main.073c9b0a.css.map",
-    "main.4bd22385.js.map": "/space-tour/static/js/main.4bd22385.js.map",
-    "787.3e704ad1.chunk.js.map": "/space-tour/static/js/787.3e704ad1.chunk.js.map"
+    "static/media/logo.svg": "/space-tour/static/media/logo.565f7f2c0534403f11b71994f4311210.svg",
+    "main.5bb674ed.css.map": "/space-tour/static/css/main.5bb674ed.css.map",
+    "main.8ebd246d.js.map": "/space-tour/static/js/main.8ebd246d.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.4bd22385.js"
+    "static/css/main.5bb674ed.css",
+    "static/js/main.8ebd246d.js"
   ]
 }
