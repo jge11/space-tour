@@ -1,7 +1,11 @@
 import React from "react";
-
-const Destination = () => {
-  return <div>Destination</div>;
+import Earth from "../assets/destination/background-destination-desktop.jpg";
+const destination = () => {
+  return (
+    <div className="destination">
+      <img src={Earth} alt="" />
+    </div>
+  );
 };
 
-export default Destination;
+export default destination;
