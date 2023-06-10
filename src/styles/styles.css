@@ -20,7 +20,14 @@
   position: relative;
     width: 70px;
     top: 40px
+  }
 
+  .navbar #open img {
+    display: none;
+  }
+  
+  .navbar #close img {
+    display: inherit;
   }
   
 .navBar .rightSide {
@@ -29,12 +36,12 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-width: 833px;
-height: 96px;
-margin-top: 40px;
-padding-right: 167px;
-background: rgba(255, 255, 255, 0.04);
-backdrop-filter: blur(40.7742px);
+    width: 833px;
+    height: 96px;
+    padding-right: 167px;
+    margin-top: 40px;
+    backdrop-filter: blur(40.7742px);
+    background: rgba(255, 255, 255, 0.04);
   }
   
     .navBar a {
@@ -42,17 +49,81 @@ backdrop-filter: blur(40.7742px);
     text-decoration: none;
     margin: 20px;
   } 
+
+  .navBar .rightSide button{
+    left: 14em;
+    position: relative;
+    background-color: transparent;
+    border: none;
+    color: white;
+    display:none; 
+    cursor: pointer;
+ }
+ .navBar .rightSide svg{
+  font-size: 40px;
+ }
+ 
+ @media screen and (max-width:648px){
+  .navBar .rightSide button{
+        display: block ;
+    }
+    .left{
+        display: none;
+    }
+ }
+
+ @media screen and (max-width:648px) {
+  .navBar .rightSide a{
+display: none;
+  } 
+ }
+ 
+
+.navBar #open .hiddenLinks {
+  display: inherit;
+  margin-left: 30px;
+}
+
+.navBar #close .hiddenLinks {
+  display: none;
+}
+
   
+
+@media only screen and (min-width: 600px) {
+  .navbar .rightSide button {
+    display: none;
+  }
+
+  .hiddenLinks {
+    display: none;
+  }
+}
 
   /* Home css */
 
  .home img.earth{
     min-width: 100%;
+    min-height: 100%;
     background-size: cover;
     background-position: center;
   }
-
+/* Destination css */
   .destination img{
+    min-width: 100%;
+    background-size: cover;
+    background-position: center;
+  } 
+
+    /* Crew css */
+    .crew img{
+      min-width: 100%;
+      background-size: cover;
+      background-position: center;
+    }
+
+  /* Technology css */
+  .techonology img{
     min-width: 100%;
     background-size: cover;
     background-position: center;
