@@ -13,11 +13,11 @@ const NavBar = () => {
 
   return (
     <div className="navBar">
-      <div className="leftSide" id={openLinks ? "open" : "close"}>
+      <nav className="leftSide" id={openLinks ? "open" : "close"}>
         <Link to="/space-tour">
           <img src={logo} />
         </Link>
-        <div className="hiddenLinks">
+        <nav className="hiddenLinks">
           <Link to="/space-tour">00 Home</Link>
           <br />
           <Link to="/space-tour/Destination">01 Destination</Link>
@@ -25,8 +25,8 @@ const NavBar = () => {
           <Link to="/space-tour/Crew">03 Crew</Link>
           <br />
           <Link to="/space-tour/Techonology">04 Technology</Link>
-        </div>
-      </div>
+        </nav>
+      </nav>
       <div className="rightSide">
         <Link to="/space-tour">00 Home</Link>
         <br />

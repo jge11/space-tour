@@ -1,11 +1,6 @@
 import React from "react";
-import spaceCrew from "../assets/crew/background-crew-desktop.jpg";
 const Crew = () => {
-  return (
-    <div className="crew">
-      <img src={spaceCrew} alt="" />
-    </div>
-  );
+  return <div className="crew"></div>;
 };
 
 export default Crew;
