@@ -1,7 +1,7 @@
 /* Navbar css */
 
 .navBar {
-    position: fixed;
+    position: absolute;
     width: 100%;
     height: auto;
     display: flex;
@@ -176,6 +176,14 @@ display: none;
     
     color: #D0D6F9;
 
+  }
+
+  .description{
+    position: absolute;
+    width: 30vw;
+    left: 0.11%;
+    right: 1.22%;
+    top: calc(50% - 128px/2 + 127px);
   }
 
   /* .explore {
