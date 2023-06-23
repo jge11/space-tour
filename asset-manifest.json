@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/space-tour/static/css/main.222e3e81.css",
-    "main.js": "/space-tour/static/js/main.c3c79915.js",
+    "main.css": "/space-tour/static/css/main.2bed156d.css",
+    "main.js": "/space-tour/static/js/main.080e3926.js",
     "static/media/image-anousheh-ansari.png": "/space-tour/static/media/image-anousheh-ansari.2d647128496ddc638acd.png",
     "static/media/background-home-desktop.jpg": "/space-tour/static/media/background-home-desktop.cdf3864ecbfdf20e8c3b.jpg",
     "static/media/background-destination-desktop.jpg": "/space-tour/static/media/background-destination-desktop.468b922c69bf5499b4bc.jpg",
@@ -9,11 +9,11 @@
     "static/media/background-technology-desktop.jpg": "/space-tour/static/media/background-technology-desktop.b7b589b3c0c5ef0811d4.jpg",
     "index.html": "/space-tour/index.html",
     "static/media/logo.svg": "/space-tour/static/media/logo.565f7f2c0534403f11b71994f4311210.svg",
-    "main.222e3e81.css.map": "/space-tour/static/css/main.222e3e81.css.map",
-    "main.c3c79915.js.map": "/space-tour/static/js/main.c3c79915.js.map"
+    "main.2bed156d.css.map": "/space-tour/static/css/main.2bed156d.css.map",
+    "main.080e3926.js.map": "/space-tour/static/js/main.080e3926.js.map"
   },
   "entrypoints": [
-    "static/css/main.222e3e81.css",
-    "static/js/main.c3c79915.js"
+    "static/css/main.2bed156d.css",
+    "static/js/main.080e3926.js"
   ]
 }
