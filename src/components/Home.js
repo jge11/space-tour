@@ -2,16 +2,15 @@ import React from "react";
 import { Container, Grid } from "@mui/material";
 import Typography from "@mui/material/Typography";
 import woman from "../assets/crew/image-anousheh-ansari.png";
+import explore from"../assets/shared/logo.svg"
 const Home = () => {
   return (
     <div className="home flex">
-      <Grid container>
+      <Grid container className="parent">
         <Grid item className="intro" xs={2} lg={12}>
           <Typography xs={2} lg={12} variant="h3" id="title">
-            SO, YOU WANT TO TRAVEL TO <p id="space">SPACE</p>
+            SO, YOU WANT TO TRAVEL TO <Typography variant="h1" id="space">SPACE</Typography>
           </Typography>
-        </Grid>
-        <Grid item className="description" xs={2} lg={12}>
           <Typography variant="h5" id="subtitle">
             {" "}
             Let’s face it; if you want to go to space, you might as well
@@ -20,9 +19,17 @@ const Home = () => {
             world experience!
           </Typography>
         </Grid>
-        <Grid className="explore" item xs={2}>
-          <img src={woman} alt="" />
-        </Grid>
+        {/* <Grid className="explore" item xs={2}> 
+        <div 
+        style={{width: 274,
+          height: 274,
+          flexShrink: 0,
+          borderRadius: 274,
+          background: "#FFF"}}
+        >
+          <text>Explore</text>
+        </div>
+         </Grid> */}
       </Grid>
     </div>
   );
