@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Grid } from "@mui/material";
+import { Grid } from "@mui/material";
 import Typography from "@mui/material/Typography";
 import woman from "../assets/crew/image-anousheh-ansari.png";
 import explore from "../assets/shared/logo.svg";
