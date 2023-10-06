@@ -9,10 +9,7 @@ const Home = () => {
       <Grid container className="parent">
         <Grid item className="intro" xs={2} lg={12}>
           <Typography xs={2} lg={12} variant="h3" id="title">
-            SO, YOU WANT TO TRAVEL TO{" "}
-            <Typography variant="h1" id="space">
-              SPACE
-            </Typography>
+            SO, YOU WANT TO TRAVEL TO <Typography id="space">SPACE</Typography>
           </Typography>
           <Typography variant="h5" id="subtitle">
             {" "}
@@ -23,15 +20,7 @@ const Home = () => {
           </Typography>
         </Grid>
         <Grid className="explore" item xs={2}>
-          <div
-            style={{
-              width: 274,
-              height: 274,
-              flexShrink: 0,
-              borderRadius: 274,
-              background: "#FFF",
-            }}
-          >
+          <div className="exploreCircle">
             <text>Explore</text>
           </div>
         </Grid>

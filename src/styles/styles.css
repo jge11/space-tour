@@ -184,6 +184,16 @@
   border-radius: 0px;
   width: 274px;
 }
+
+.exploreCircle {
+  width: 274px;
+  height: 274px;
+  flex-shrink: 0;
+  border-radius: 274px;
+  background: #fff;
+  text-align: center;
+}
+
 /* Destination css */
 .destination {
   background-image: url("../assets/destination/background-destination-desktop.jpg");
