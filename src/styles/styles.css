@@ -134,6 +134,16 @@
   color: #d0d6f9;
 }
 
+@media only screen and (max-width: 600px) {
+  #title {
+    font-family: "Barlow Condensed";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+  }
+}
+
 #space {
   /* position: absolute; */
   height: 172px;
@@ -152,11 +162,11 @@
 }
 
 #subtitle {
-  position: absolute;
+  /* position: absolute;
   height: 128px;
   left: 0.11%;
   right: 1.22%;
-  top: calc(50% - 128px / 2 + 127px);
+  top: calc(50% - 128px / 2 + 127px); */
 
   font-family: "Barlow";
   font-style: normal;
@@ -179,8 +189,8 @@
 .explore {
   position: absolute;
   height: 274px;
-  left: 1001px;
-  top: 495px;
+  left: 78%;
+  top: 50%;
   border-radius: 0px;
   width: 274px;
 }
