@@ -15,7 +15,7 @@ const NavBar = () => {
     <div className="navBar">
       <nav className="leftSide" id={openLinks ? "open" : "close"}>
         <Link to="/space-tour">
-          <img src={logo} />
+          <img src={logo} alt="logo" />
         </Link>
         <nav className="hiddenLinks">
           <Link to="/space-tour">00 Home</Link>

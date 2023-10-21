@@ -168,6 +168,8 @@
   right: 1.22%;
   top: calc(50% - 128px / 2 + 127px); */
 
+  position: relative;
+  top: 100px;
   font-family: "Barlow";
   font-style: normal;
   font-weight: 400;
@@ -202,6 +204,12 @@
   border-radius: 274px;
   background: #fff;
   text-align: center;
+}
+
+.exploreCircle text {
+  position: relative;
+  top: 40%;
+  font-size: 32px;
 }
 
 /* Destination css */
