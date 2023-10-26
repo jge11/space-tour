@@ -190,25 +190,18 @@
 
 .explore {
   position: absolute;
-  height: 274px;
   left: 78%;
   top: 50%;
   border-radius: 0px;
-  width: 274px;
-}
-
-.exploreCircle {
   width: 274px;
   height: 274px;
   flex-shrink: 0;
   border-radius: 274px;
   background: #fff;
   text-align: center;
-}
-
-.exploreCircle text {
-  position: relative;
-  top: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-size: 32px;
 }
 
