@@ -29,9 +29,9 @@ const Home = () => {
                 it. Well sit back, and relax because we’ll give you a truly out
                 of this world experience!
               </p>
+              <p id="explore">Explore</p>
             </span>
             {/* <Grid item className="explore-cirlce"> */}
-            <p id="explore">Explore</p>
             {/* </Grid> */}
           </Grid>
         </Grid>

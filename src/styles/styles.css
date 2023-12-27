@@ -158,6 +158,9 @@
 #subtitle {
   position: relative;
   top: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 #subtitle-text {
@@ -186,6 +189,8 @@
 }
 
 #explore {
+  position: relative;
+  margin-top: -5%;
   border-radius: 0px;
   width: 274px;
   height: 274px;
