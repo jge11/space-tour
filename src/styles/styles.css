@@ -63,8 +63,8 @@
   font-size: 40px;
 }
 
-@media screen and (max-width: 648px) {
-  .navBar .rightSide button {
+@media screen and (max-width: 600px) {
+  .navBar .rightSide button#hamburgerMenu {
     display: block;
   }
   .left {
@@ -72,7 +72,7 @@
   }
 }
 
-@media screen and (max-width: 648px) {
+@media screen and (max-width: 600px) {
   .navBar .rightSide a {
     display: none;
   }
@@ -88,13 +88,17 @@
 }
 
 @media only screen and (min-width: 600px) {
-  .navbar .rightSide button {
+  .navbar .rightSide button#hamburgerMenu {
     display: none;
   }
 
   .hiddenLinks {
     display: none;
   }
+}
+
+.navBar a:hover {
+  color: rgb(31, 241, 220);
 }
 
 /* Home css */
