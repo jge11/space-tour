@@ -123,6 +123,8 @@
   padding-right: 10%;
   width: 100vw;
   height: auto;
+  display: flex;
+  align-items: center;
 }
 
 #title {
@@ -199,7 +201,6 @@
 #explore {
   position: relative;
   margin-top: -5%;
-  left: 80%;
   border-radius: 0px;
   width: 274px;
   height: 274px;
