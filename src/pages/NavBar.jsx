@@ -29,7 +29,7 @@ const NavBar = () => {
           </nav>
         </nav>
         <>
-          <nav className="rightSide" id={openLinks ? "open" : "close"}>
+          <nav className="rightSide">
             <Link to="/space-tour">00 Home</Link>
             <br />
             <Link to="/space-tour/Destination">01 Destination</Link>

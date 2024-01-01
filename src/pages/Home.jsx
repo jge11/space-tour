@@ -8,7 +8,7 @@ import Stack from "@mui/material/Stack";
 const Home = () => {
   return (
     <main>
-      <div className="home flex">
+      <div width="100%" height="auto" className="home flex">
         <Grid
           container
           className="parent"
@@ -16,23 +16,31 @@ const Home = () => {
           justifyContent="center"
           alignItems="center"
         >
-          <Grid item className="intro" xs={2} lg={12}>
-            <Typography xs={2} lg={12} variant="h3" id="title">
+          <Grid item className="intro">
+            <Typography
+              xs={2}
+              lg={12}
+              variant="h3"
+              id="title"
+              sx={{ fontSize: "clamp(1rem, 5vw, 2rem)" }}
+            >
               SO, YOU WANT TO TRAVEL TO{" "}
-              <Typography id="space">SPACE</Typography>
-            </Typography>
-            <span id="subtitle">
-              {" "}
-              <p id="subtitle-text">
+              <Typography
+                xs={2}
+                lg={12}
+                id="space"
+                sx={{ fontSize: "clamp(4rem, 25vw, 10rem)" }}
+              >
+                SPACE
+              </Typography>
+              <Typography id="subtitle-text" variant="h5">
                 Let’s face it; if you want to go to space, you might as well
                 genuinely go to outer space and not hover kind of on the edge of
                 it. Well sit back, and relax because we’ll give you a truly out
                 of this world experience!
-              </p>
-              <p id="explore">Explore</p>
-            </span>
-            {/* <Grid item className="explore-cirlce"> */}
-            {/* </Grid> */}
+              </Typography>
+            </Typography>
+            <Typography id="explore">Explore</Typography>
           </Grid>
         </Grid>
       </div>
