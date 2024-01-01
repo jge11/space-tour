@@ -72,7 +72,7 @@
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
   .navBar .rightSide a {
     display: none;
   }
