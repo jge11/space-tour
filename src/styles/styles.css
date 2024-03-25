@@ -119,6 +119,7 @@
 .intro {
   position: absolute;
   top: 50vh;
+  justify-content: space-between;
   padding-left: 10%;
   padding-right: 10%;
   width: 100vw;
@@ -178,7 +179,7 @@
   font-weight: 400;
   font-size: 32px;
   line-height: 32px;
-  width: 35%;
+  width: 444px;
   /* or 178% */
 
   color: #d0d6f9;
