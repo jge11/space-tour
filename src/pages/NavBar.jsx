@@ -19,24 +19,40 @@ const NavBar = () => {
             <img src={logo} alt="logo" />
           </Link>
           <nav className="hiddenLinks">
-            <Link to="/space-tour">00 Home</Link>
+            <Link id="hiddenHome" to="/space-tour">
+              00 Home
+            </Link>
             <br />
-            <Link to="/space-tour/Destination">01 Destination</Link>
+            <Link id="hiddenDestination" to="/space-tour/Destination">
+              01 Destination
+            </Link>
             <br />
-            <Link to="/space-tour/Crew">03 Crew</Link>
+            <Link id="hiddenCrew" to="/space-tour/Crew">
+              03 Crew
+            </Link>
             <br />
-            <Link to="/space-tour/Techonology">04 Technology</Link>
+            <Link id="technology" to="/space-tour/Techonology">
+              04 Technology
+            </Link>
           </nav>
         </nav>
         <>
           <nav className="rightSide">
-            <Link to="/space-tour">00 Home</Link>
+            <Link id="home" to="/space-tour">
+              00 Home
+            </Link>
             <br />
-            <Link to="/space-tour/Destination">01 Destination</Link>
+            <Link id="destination" to="/space-tour/Destination">
+              01 Destination
+            </Link>
             <br />
-            <Link to="/space-tour/Crew">03 Crew</Link>
+            <Link id="crew" to="/space-tour/Crew">
+              03 Crew
+            </Link>
             <br />
-            <Link to="/space-tour/Techonology">04 Technology</Link>
+            <Link id="technology" to="/space-tour/Techonology">
+              04 Technology
+            </Link>
             <button
               id="hamburgerMenu"
               data-test-id="hamburgerMenu"

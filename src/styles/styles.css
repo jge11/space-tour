@@ -101,6 +101,13 @@
   color: rgb(31, 241, 220);
 }
 
+.navBar a:active {
+  background: transparent !important;
+  color: white !important;
+  border-bottom: 2px solid yellow !important;
+  border-radius: 0px !important;
+}
+
 /* Home css */
 
 .parent {
